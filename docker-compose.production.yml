@@ -27,6 +27,6 @@ services:
     image: dmitrievigor/taski_gateway 
     env_file: .env
     volumes:
-      - static:/staticfiles/
+      - static:/staticfiles
     ports:
       - 8000:80
