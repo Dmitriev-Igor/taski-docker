@@ -112,7 +112,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # Указываем корневую директорию для сборки статических файлов;
 # в контейнере это будет /app/collected_static
-STATIC_ROOT = BASE_DIR / 'collected_static'
+STATIC_ROOT = '/backend_static/static/'
 # Теперь при вызове команды python manage.py collectstatic
 # Django будет копировать все статические файлы в директорию collected_static
 

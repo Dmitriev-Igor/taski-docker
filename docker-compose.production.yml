@@ -16,7 +16,7 @@ services:
     image: dmitrievigor/taski_backend
     env_file: .env
     volumes:
-      - ./backend_static/static:/backend_static/static
+      - static:/backend_static/
   frontend:
     image: dmitrievigor/taski_frontend  # Качаем с Docker Hub
     env_file: .env
